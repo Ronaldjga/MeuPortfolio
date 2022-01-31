@@ -1,0 +1,28 @@
+{
+  "name": "novo-portifolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ronaldjga/Novo-portifolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ronaldjga/Novo-portifolio/issues"
+  },
+  "homepage": "https://github.com/Ronaldjga/Novo-portifolio#readme",
+  "dependencies": {
+    "next": "^12.0.9",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}
