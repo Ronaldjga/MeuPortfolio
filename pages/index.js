@@ -1,5 +1,14 @@
+import react from "react"
+import reactDom from "react-dom"
+import { Button, } from '@mui/material'
+
 function HomePage() {
-    return <div>Welcome to Next.js!</div>
+  return (
+    <>
+      
+    </>
+  )
+  
   }
   
   export default HomePage

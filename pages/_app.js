@@ -1,3 +1,5 @@
+import '../styles/globals.css'
+
 function GlobalStyle() {
     return (
       <style global jsx>{`
@@ -34,7 +36,6 @@ function GlobalStyle() {
 
 
 export default function MyApp({ Component, pageProps }) {
-    console.log('estou em todas as paginas')
     return (
         <>
             <GlobalStyle/>
