@@ -2,7 +2,7 @@ import react from "react"
 import reactDom from "react-dom"
 import { Fab, Button } from "@mui/material"
 
-import { GithubIcon, InstagramIcon, LinkedinIcon } from "../src/components/icons/icons"
+import { GithubIcon, InstagramIcon, LinkedinIcon, HtmlIcon} from "../src/components/icons/icons"
 import { Box } from "@mui/system"
 
 
@@ -36,8 +36,8 @@ function HomePage() {
       <section className="px-3 py-10">
         <div>
           <h2 className="font-h1Title text-white font-black text-3xl text-center">Tecnologias</h2>
+          <HtmlIcon className="bg-yelloPrimary">qualquer coisa</HtmlIcon>
         </div>
-
       </section>
     </Box>
   )
