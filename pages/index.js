@@ -1,6 +1,8 @@
-import react from "react"
+import react, { useEffect } from "react"
+import { useState } from "react"
 import reactDom from "react-dom"
 import { Fab, Button } from "@mui/material"
+import { ProjectCard } from "../src/patterns/projectsCard/projectsCard"
 
 import { GithubIcon, InstagramIcon, LinkedinIcon, HtmlIcon, CSSIcon, JavascriptIcon, ReactIcon, NextIcon, TailwindIcon, PhotoshopIcon, GitIcon, GithubIconTech, AdobexdIcon, FigmaIcon} from "../src/components/icons/icons"
 import { Box } from "@mui/system"
@@ -32,6 +34,11 @@ function HomePage() {
           <Button size="large" color="inherit" className="bg-yelloPrimary text-darkBluePrimary " variant="contained">Curriculo</Button>
         </div>
       </section>
+
+      <main>
+          <ProjectCard href="https://www.youtube.com/" title="Ronald Almeida" text="çaoiewngçoiaewngçaoewnig"/>
+      </main>     
+      
 
       <section className="px-5 py-10">
         <h2 className="font-h1Title text-white font-black text-3xl text-center">Tecnologias</h2>
