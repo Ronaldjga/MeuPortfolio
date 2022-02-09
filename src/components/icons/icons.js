@@ -8,7 +8,7 @@ import Linkedin from "../img/sociaisIcons/linkedin.svg"
 
 //! Icons Technologies
 import IconHTML from "../img/TecnologiesIcons/htmlIcon.svg"
-import IconCSS from "../img/TecnologiesIcons/CSSIcon.svg"
+import IconCSS from "../img/TecnologiesIcons/cssIcon.svg"
 import IconJavascript from "../img/TecnologiesIcons/javascriptIcon.svg"
 import IconReact from "../img/TecnologiesIcons/reactIcon.svg"
 import IconTailwind from "../img/TecnologiesIcons/tailwindIcon.svg"
