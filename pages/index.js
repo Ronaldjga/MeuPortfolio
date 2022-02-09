@@ -35,7 +35,9 @@ function HomePage() {
         </div>
       </section>
 
-      <main>
+      <main className="flex flex-col gap-5 px-5">
+          <ProjectCard href="https://www.youtube.com/" title="Ronald Almeida" text="çaoiewngçoiaewngçaoewnig"/>
+          <ProjectCard href="https://www.youtube.com/" title="Ronald Almeida" text="çaoiewngçoiaewngçaoewnig"/>
           <ProjectCard href="https://www.youtube.com/" title="Ronald Almeida" text="çaoiewngçoiaewngçaoewnig"/>
       </main>     
       
