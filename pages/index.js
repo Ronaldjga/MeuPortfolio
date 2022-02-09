@@ -2,7 +2,7 @@ import react, { useEffect } from "react"
 import { useState } from "react"
 import reactDom from "react-dom"
 import { Fab, Button } from "@mui/material"
-import { ProjectCard } from "../src/patterns/projectsCard/projectsCard"
+import { ProjectCard } from "../src/patterns/projectsCard"
 
 import { GithubIcon, InstagramIcon, LinkedinIcon, HtmlIcon, CSSIcon, JavascriptIcon, ReactIcon, NextIcon, TailwindIcon, PhotoshopIcon, GitIcon, GithubIconTech, AdobexdIcon, FigmaIcon} from "../src/components/icons/icons"
 import { Box } from "@mui/system"
