@@ -25,23 +25,17 @@ function HomePage() {
           <img className="w-3/4 xl:w-10/12 rounded-xl" src="https://github.com/Ronaldjga.png" />
           <h1 className="font-h1Title font-black text-2xl text-center sm:text-4xl lg:text-3xl xl:text-4xl">Ronald Almeida</h1>
           <div className="w-3/4 flex justify-around">
-            <a target={'_blank'} href="https://www.linkedin.com/in/ronald-almeida-749198220/">
-              <Fab size="medium" className="bg-yelloPrimary">
-                <LinkedinIcon />
-              </Fab>
-            </a>
-            
-            <a target={'_blank'} href="https://www.instagram.com/ronald_jga/">
-              <Fab size="medium" className="bg-yelloPrimary">
-                <InstagramIcon />
-              </Fab>
-            </a>
-            
-            <a target={'_blank'} href="https://github.com/Ronaldjga">
-              <Fab size="medium" className="bg-yelloPrimary">
-                <GithubIcon />
-              </Fab>
-            </a>
+            <Fab target={'_blank'} href="https://www.linkedin.com/in/ronald-almeida-749198220/" size="medium" className="bg-yelloPrimary">
+              <LinkedinIcon />
+            </Fab>
+
+            <Fab target={'_blank'} href="https://www.instagram.com/ronald_jga/" size="medium" className="bg-yelloPrimary">
+              <InstagramIcon />
+            </Fab>
+
+            <Fab target={'_blank'} href="https://github.com/Ronaldjga" size="medium" className="bg-yelloPrimary">
+              <GithubIcon />
+            </Fab>
           </div>
         </div>
       </section>
@@ -73,7 +67,7 @@ function HomePage() {
               ">Eu me chamo Ronald Almeida, tenho 18 anos. Atualmente, estou cursando Analise e desenvolvimento de sistemas, mas ainda assim, me esforço aprendendo ainda mais fora da faculdade. Ainda joven, busco me tornar um desenvolvedor full-Stack.</p>
           <div className="w-full flex justify-center py-5">
             <ThemeProvider theme={theme}>
-              <Button size="large" color="primary" variant="contained">Curriculo</Button>
+              <Button target={"_blank"} href="https://drive.google.com/file/d/1L81Eae7KkEawY0_qGzlu1f33rCtv-0jx/view?usp=sharing" size="large" color="primary" variant="contained">Curriculo</Button>
             </ThemeProvider>
           </div>
         </section>
@@ -163,27 +157,23 @@ function HomePage() {
       <footer className="w-full min-h-[300px] bg-yelloPrimary flex flex-col justify-center items-center gap-2
         sm:hidden
         ">
-          <h2 className="text-5xl font-h1Title font-black text-center">Ronald Almeida</h2>
-          <div className="w-3/4 flex justify-around">
-            <a target={'_blank'} href="https://www.linkedin.com/in/ronald-almeida-749198220/">
-              <Fab size="medium" className="bg-yelloPrimary">
-                <LinkedinIcon />
-              </Fab>
-            </a>
-            
-            <a target={'_blank'} href="https://www.instagram.com/ronald_jga/">
-              <Fab size="medium" className="bg-yelloPrimary">
-                <InstagramIcon />
-              </Fab>
-            </a>
-            
-            <a target={'_blank'} href="https://github.com/Ronaldjga">
-              <Fab size="medium" className="bg-yelloPrimary">
-                <GithubIcon />
-              </Fab>
-            </a>
-          </div>
-        </footer>
+        <h2 className="text-5xl font-h1Title font-black text-center">Ronald Almeida</h2>
+        <div className="w-3/4 flex justify-around">
+          <Fab target={'_blank'} href="https://www.linkedin.com/in/ronald-almeida-749198220/" size="medium" className="bg-yelloPrimary">
+            <LinkedinIcon />
+          </Fab>
+
+
+          <Fab target={'_blank'} href="https://www.instagram.com/ronald_jga/" size="medium" className="bg-yelloPrimary">
+            <InstagramIcon />
+          </Fab>
+
+
+          <Fab target={'_blank'} href="https://github.com/Ronaldjga" size="medium" className="bg-yelloPrimary">
+            <GithubIcon />
+          </Fab>
+        </div>
+      </footer>
     </Box>
   )
 }
