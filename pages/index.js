@@ -3,6 +3,8 @@ import { useState } from "react"
 import reactDom from "react-dom"
 import { Fab, Button } from "@mui/material"
 import { ProjectCard } from "../src/patterns/projectsCard.js"
+import { theme } from "../src/components/theme/theme"
+import { ThemeProvider, createTheme } from "@mui/material/styles"
 
 import { GithubIcon, InstagramIcon, LinkedinIcon, HtmlIcon, CSSIcon, JavascriptIcon, ReactIcon, NextIcon, TailwindIcon, PhotoshopIcon, GitIcon, GithubIconTech, AdobexdIcon, FigmaIcon} from "../src/components/icons/icons"
 import { Box } from "@mui/system"
@@ -49,7 +51,9 @@ function HomePage() {
             xl:text-xl
             ">Eu me chamo Ronald Almeida, tenho 18 anos. Atualmente, estou cursando Analise e desenvolvimento de sistemas, mas ainda assim, me esforço aprendendo ainda mais fora da faculdade. Ainda joven, busco me tornar um desenvolvedor full-Stack.</p>
           <div className="w-full flex justify-center py-5">
-            <Button size="large" color="inherit" className="bg-yelloPrimary text-darkBluePrimary " variant="contained">Curriculo</Button>
+            <ThemeProvider theme={theme}>
+              <Button size="large" color="primary" variant="contained">Curriculo</Button>
+            </ThemeProvider>
           </div>
         </section>
       </div>
