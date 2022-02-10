@@ -87,7 +87,7 @@ function HomePage() {
             xl:grid-cols-3 xl:max-w-screen-xl
             ">
             <ProjectCard href="https://chat-project-nine.vercel.app/" title="Chat Project" text="Projeto de chat, logado com o username do github. Algumas das tecnologias usadas nesse projeto: React, Next.js, Supabase." imagem="https://s10.gifyu.com/images/project-chat.gif" />
-            <ProjectCard href="" title="" text="" />
+            <ProjectCard href="https://ecomerce-project.000webhostapp.com/" title="E-Comerce Project" text="Prototipo de um site E-comerce. Podemos escolher o produto e adicionar ao carrinho. Feito com javaScript, Html, Css e Tailwind" imagem="https://s10.gifyu.com/images/ecomerce-project.gif" />
             <ProjectCard href="" title="" text="" />
             <ProjectCard href="" title="" text="" />
             <ProjectCard href="" title="" text="" />
