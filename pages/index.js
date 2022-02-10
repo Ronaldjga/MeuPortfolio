@@ -49,7 +49,7 @@ function HomePage() {
       pb-20
       sm:p-0
       lg:flex flex-col justify-center items-center gap-2 p-2
-      lg:pt-20 lg:pb-16
+      lg:pt-20 lg:pb-16 lg:w-4/5
       ">
 
         
@@ -100,7 +100,7 @@ function HomePage() {
           className="px-3
           md:px-5
           lg:w-full
-          xl:flex xl:flex-col xl:items-end
+          xl:flex xl:flex-col xl:items-center
           ">
           <h2 className="font-h1Title text-white font-black text-3xl text-center 
           sm:text-5xl sm:py-5
