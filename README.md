@@ -1,6 +1,8 @@
 # Novo Portifolio
 
-<img src="https://s10.gifyu.com/images/portifolio-video.gif" alt="Ronald Almeida, Banner">
+<p align="center" style="border:2px solid yellow;">
+    <img src="https://s10.gifyu.com/images/portifolio-video.gif" alt="Ronald Almeida, Banner">
+</p>
 
 ## Tecnologias
 
