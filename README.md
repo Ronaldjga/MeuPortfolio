@@ -8,7 +8,7 @@
     <img src="https://raw.githubusercontent.com/Ronaldjga/Ronaldjga/main/img/twBanner.png" alt="TailwindCSS Banner">
 </p>
 
-<hr>
+<hr style="border:2px solid #F2BF5E"> </hr>
 
 ## Descrição
 
