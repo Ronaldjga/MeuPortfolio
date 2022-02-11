@@ -2,5 +2,7 @@
  
 ## Tecnologias
 <ul>
-    <li> Next.js <li/> <li> React <li/> <li> Tailwind <li/>
+    Next.js
+    React.js
+    TailwindCss
 <ul/>
