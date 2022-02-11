@@ -1,4 +1,6 @@
-# Novo Projeto
+# Novo Portifolio
+
+<img src="https://raw.githubusercontent.com/Ronaldjga/Ronaldjga/main/img/bannerReadme.png" alt="Ronald Almeida, Banner">
 
 ## Tecnologias
 
@@ -8,7 +10,7 @@
     <img src="https://raw.githubusercontent.com/Ronaldjga/Ronaldjga/main/img/twBanner.png" alt="TailwindCSS Banner">
 </p>
 
-<hr color= "blue"> </hr>
+<hr> </hr>
 
 ## Descrição
 
