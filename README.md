@@ -2,7 +2,7 @@
 
 ## Tecnologias
 
-<p style="text-align: center;">
+<p align="center">
     <img src="https://raw.githubusercontent.com/Ronaldjga/Ronaldjga/main/img/nextjsBanner.png" alt="NextJs Banner">
     <img src="https://raw.githubusercontent.com/Ronaldjga/Ronaldjga/main/img/reactjsBanner.png" alt="React Banner">
     <img src="https://raw.githubusercontent.com/Ronaldjga/Ronaldjga/main/img/twBanner.png" alt="TailwindCSS Banner">
