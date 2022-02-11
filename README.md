@@ -1,6 +1,6 @@
 # Novo Portifolio
 
-<img src="https://raw.githubusercontent.com/Ronaldjga/Ronaldjga/main/img/bannerReadme.png" alt="Ronald Almeida, Banner">
+<img src="https://s10.gifyu.com/images/portifolio-video.gif" alt="Ronald Almeida, Banner">
 
 ## Tecnologias
 
