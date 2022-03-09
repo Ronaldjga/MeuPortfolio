@@ -5,7 +5,7 @@ export function ProjectCard(props) {
         <div
             className="bg-yelloPrimary p-2 flex flex-col gap-2
             xl:p-5 xl:gap-5">
-            <a className={props.className,``} target="_blank" href={props.href}>
+            <a className={`${props.className}`} target="_blank" href={props.href}>
                 <img className="" src={props.imagem}/>
             </a>
             <div className="w-full bg-white p-2">
