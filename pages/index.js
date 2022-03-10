@@ -64,7 +64,7 @@ function HomePage() {
           <p
             className="font-body text-white indent-10
               xl:text-xl
-              ">Eu me chamo Ronald Almeida, tenho 18 anos. Atualmente, estou cursando Analise e desenvolvimento de sistemas, mas ainda assim, me esforço aprendendo ainda mais fora da faculdade. Ainda joven, busco me tornar um desenvolvedor full-Stack.</p>
+              ">Eu me chamo Ronald Almeida, tenho 19 anos. Atualmente, estou cursando Analise e desenvolvimento de sistemas, mas ainda assim, me esforço aprendendo ainda mais fora da faculdade. Ainda joven, busco me tornar um desenvolvedor full-Stack.</p>
           <div className="w-full flex justify-center py-5">
             <ThemeProvider theme={theme}>
               <Button target={"_blank"} href="https://drive.google.com/file/d/1L81Eae7KkEawY0_qGzlu1f33rCtv-0jx/view?usp=sharing" size="large" color="primary" variant="contained">Curriculo</Button>
