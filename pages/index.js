@@ -86,13 +86,53 @@ function HomePage() {
             lg:grid-cols-2
             xl:grid-cols-3 xl:max-w-screen-xl
             ">
-            <ProjectCard href="https://chat-project-nine.vercel.app/" title="Chat Project" text="Projeto de chat, logado com o username do github. Algumas das tecnologias usadas nesse projeto: React, Next.js, Supabase." imagem="https://s10.gifyu.com/images/project-chat.gif" />
-            <ProjectCard href="https://ecomerce-project.000webhostapp.com/" title="E-Comerce Project" text="Prototipo de um site E-comerce. Podemos escolher o produto e adicionar ao carrinho. Feito com javaScript, Html, Css e Tailwind" imagem="https://s10.gifyu.com/images/ecomerce-project.gif" />
+            <ProjectCard
+              href="https://chat-project-nine.vercel.app/"
+              title="Chat Project"
+              text="Chat compartilhado com a possibilidade de login com o username do Github. Desenvolvido com React e Next.js integrado com o banco de dados relacional Supabase."
+              imagem="https://s10.gifyu.com/images/project-chat.gif"
+              techOne="React.JS"
+              techTwo="Next.JS"
+              techThree="Tailwind"
+              techFour="Supabase"
+              techFive="SkyNexUi"
+              techSixClassName="hidden"
+            />
+            <ProjectCard
+              href="https://ecomerce-project.000webhostapp.com/"
+              title="E-Comerce Project"
+              text="Site E-comerce básico, podemos escolher os produtos do cardápio e adicionar ao carrinho em diferentes quantidades."
+              imagem="https://s10.gifyu.com/images/ecomerce-project.gif"
+              techOne="HTML5"
+              techTwo="Tailwind"
+              techThree="Javascript"
+              techFourClassName="hidden"
+              techFiveClassName="hidden"
+              techSixClassName="hidden"
+            />
             <ProjectCard
               href="https://calculadora-mdbhm8u3v-ronaldjga.vercel.app/"
               title="Calculadoras Online"
-              text="Calculadoras Online é um site com as diversas calculadoras que fornecem resultados precisos. Foi desenvolvido com ReactJs, NextJs, Tailwind."
+              text="Calculadoras Online é um site com as diversas calculadoras que fornecem resultados precisos."
               imagem="https://s7.gifyu.com/images/calculadora.gif"
+              techOne="React.JS"
+              techTwo="Next.JS"
+              techThree="Tailwind"
+              techFourClassName="hidden"
+              techFiveClassName="hidden"
+              techSixClassName="hidden"
+            />
+            <ProjectCard
+              href="https://lista-de-tarefas-a4qk22xv2-ronaldjga.vercel.app/"
+              title="Lista de Tarefas"
+              text="Lista de tarefas é um site onde podemos criar, editar ou deletar nossas tarefas, mantendo uma organização própria salva no LocalStorage."
+              imagem="https://s10.gifyu.com/images/listaDeTarefas7b17101507cab9b4.gif"
+              techOne="React"
+              techTwo="Next.JS"
+              techThree="Tailwind"
+              techFour="LocalStorage"
+              techFiveClassName="hidden"
+              techSixClassName="hidden"
             />
           </div>
         </main>
