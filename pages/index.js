@@ -94,9 +94,6 @@ function HomePage() {
               text="Calculadoras Online é um site com as diversas calculadoras que fornecem resultados precisos. Foi desenvolvido com ReactJs, NextJs, Tailwind."
               imagem="https://s7.gifyu.com/images/calculadora.gif"
             />
-            <ProjectCard href="" title="" text="" />
-            <ProjectCard href="" title="" text="" />
-            <ProjectCard href="" title="" text="" />
           </div>
         </main>
 
