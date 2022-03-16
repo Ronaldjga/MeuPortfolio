@@ -3,7 +3,7 @@ import React from "react";
 export function ProjectCard(props) {
     return (
         <div
-            className="bg-gray-900 border-2 border-yelloPrimary p-2 flex flex-col gap-2
+            className="bg-gray-900 border-2 border-yelloPrimary p-2 flex flex-col justify-around gap-2
             xl:p-5 xl:gap-5 text-white">
             <a className={`${props.className}`} target="_blank" href={props.href}>
                 <img className="" src={props.imagem}/>
@@ -17,31 +17,33 @@ export function ProjectCard(props) {
                 </a>
                 <p className="w-full text-sm font-body py-3">{props.text}</p>
             </div>
-            <div className={`${props.techClassName} py-2 text-black  grid grid-cols-3 gap-2`}>
-                <Tech
-                    techClassName={props.techOneClassName}
-                    tech={props.techOne}
-                />
-                <Tech
-                    techClassName={props.techTwoClassName}
-                    tech={props.techTwo}
-                />
-                <Tech
-                    tech={props.techThree}
-                    techClassName={props.techThreeClassName}
-                />
-                <Tech
-                    tech={props.techFour}
-                    techClassName={props.techFourClassName}
-                />
-                <Tech
-                    tech={props.techFive}
-                    techClassName={props.techFiveClassName}
-                />
-                <Tech
-                    techClassName={props.techSixClassName}
-                    tech={props.techSix}
-                />
+            <div className="min-h-[100px]">
+                <div className={`${props.techClassName} py-2 text-black  grid grid-cols-3 gap-2`}>
+                    <Tech
+                        techClassName={props.techOneClassName}
+                        tech={props.techOne}
+                    />
+                    <Tech
+                        techClassName={props.techTwoClassName}
+                        tech={props.techTwo}
+                    />
+                    <Tech
+                        tech={props.techThree}
+                        techClassName={props.techThreeClassName}
+                    />
+                    <Tech
+                        tech={props.techFour}
+                        techClassName={props.techFourClassName}
+                    />
+                    <Tech
+                        tech={props.techFive}
+                        techClassName={props.techFiveClassName}
+                    />
+                    <Tech
+                        techClassName={props.techSixClassName}
+                        tech={props.techSix}
+                    />
+                </div>
             </div>
         </div>
  )   
