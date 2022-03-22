@@ -1,4 +1,10 @@
 import React from "react";
+import Image from "next/image";
+
+import chatImage from '../components/img/projects/chatImage.PNG'
+import calculatorImage from '../components/img/projects/calculadorasImage.PNG'
+import ecomerceImage from '../components/img/projects/ecomerceImage.PNG'
+import todoListImage from '../components/img/projects/todoListImage.PNG'
 
 export function ProjectCard(props) {
     return (
@@ -6,7 +12,7 @@ export function ProjectCard(props) {
             className="bg-gray-900 border-2 border-yelloPrimary p-2 flex flex-col justify-around gap-2
             xl:p-5 xl:gap-5 text-white">
             <a className={`${props.className}`} target="_blank" href={props.href}>
-                <img className="" src={props.imagem}/>
+                <Image layout="responsive" src={props.image}/>
             </a>
             <div className="w-full p-2">
                 <a target='_blank'  href={props.href}>

@@ -9,6 +9,11 @@ import { ThemeProvider, createTheme } from "@mui/material/styles"
 import { GithubIcon, InstagramIcon, LinkedinIcon, HtmlIcon, CSSIcon, JavascriptIcon, ReactIcon, NextIcon, TailwindIcon, PhotoshopIcon, GitIcon, GithubIconTech, AdobexdIcon, FigmaIcon } from "../src/components/icons/icons"
 import { Box } from "@mui/system"
 
+import chatImage from '../src/components/img/projects/chatImage.PNG'
+import calculatorImage from '../src/components/img/projects/calculadorasImage.PNG'
+import ecomerceImage from '../src/components/img/projects/ecomerceImage.PNG'
+import todoListImage from '../src/components/img/projects/todoListImage.PNG'
+
 
 function HomePage() {
   return (
@@ -90,10 +95,10 @@ function HomePage() {
               href="https://chat-project-nine.vercel.app/"
               title="Chat Project"
               text="Chat compartilhado com a possibilidade de login com o username do Github. Desenvolvido com React e Next.js integrado com o banco de dados relacional Supabase."
-              imagem="https://s10.gifyu.com/images/project-chat.gif"
+              image={chatImage}
               techOne="React.JS"
               techTwo="Next.JS"
-              techThree="Tailwind"
+              techThreeClassName="hidden"
               techFour="Supabase"
               techFive="SkyNexUi"
               techSixClassName="hidden"
@@ -102,7 +107,7 @@ function HomePage() {
               href="https://ecomerce-project.000webhostapp.com/"
               title="E-Comerce Project"
               text="Site E-comerce básico, podemos escolher os produtos do cardápio e adicionar ao carrinho em diferentes quantidades."
-              imagem="https://s10.gifyu.com/images/ecomerce-project.gif"
+              image={ecomerceImage}
               techOne="HTML5"
               techTwo="Tailwind"
               techThree="Javascript"
@@ -114,7 +119,7 @@ function HomePage() {
               href="https://calculadora-mdbhm8u3v-ronaldjga.vercel.app/"
               title="Calculadoras Online"
               text="Calculadoras Online é um site com as diversas calculadoras que fornecem resultados precisos."
-              imagem="https://s7.gifyu.com/images/calculadora.gif"
+              image={calculatorImage}
               techOne="React.JS"
               techTwo="Next.JS"
               techThree="Tailwind"
@@ -126,7 +131,7 @@ function HomePage() {
               href="https://lista-de-tarefas-a4qk22xv2-ronaldjga.vercel.app/"
               title="Lista de Tarefas"
               text="Lista de tarefas é um site onde podemos criar, editar ou deletar nossas tarefas, mantendo uma organização própria salva no LocalStorage."
-              imagem="https://s10.gifyu.com/images/listaDeTarefas7b17101507cab9b4.gif"
+              image={todoListImage}
               techOne="React"
               techTwo="Next.JS"
               techThree="Tailwind"
