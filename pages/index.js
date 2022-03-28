@@ -13,6 +13,7 @@ import chatImage from '../src/components/img/projects/chatImage.PNG'
 import calculatorImage from '../src/components/img/projects/calculadorasImage.PNG'
 import ecomerceImage from '../src/components/img/projects/ecomerceImage.PNG'
 import todoListImage from '../src/components/img/projects/todoListImage.PNG'
+import pokedexImage from '../src/components/img/projects/pokedex.PNG'
 
 
 function HomePage() {
@@ -137,6 +138,18 @@ function HomePage() {
               techThree="Tailwind"
               techFour="LocalStorage"
               techFiveClassName="hidden"
+              techSixClassName="hidden"
+            />
+            <ProjectCard
+              href="https://pokemonpokedex.vercel.app/"
+              title="Pokédex"
+              text="Pokédex pokemon, com funcionalidade de pesquisa de pokemon individual, sortear pokemon aleatório ou seleção de lista de pokemons por tipos. Designer responsivo e interativo."
+              image={pokedexImage}
+              techOne="React"
+              techTwo="Next.JS"
+              techThree="Tailwind"
+              techFour="Axios"
+              techFive="PokeAPI"
               techSixClassName="hidden"
             />
           </div>
