@@ -50,57 +50,69 @@ export function ProjectCard(props) {
 
 
     return (
-        <div
-        className="flex flex-col gap-5
-        md:grid md:grid-cols-2
-        lg:grid-cols-2
-        xl:grid-cols-3 xl:max-w-screen-xl
-        "
-        >
-            {projects.map((data, i) => {
-                return (
-                    <div
-                        key={i}
-                        className="bg-gray-900 border-2 border-primaryPink p-2 flex flex-col justify-around gap-2
+        <>
+            <main
+                className="flex flex-col gap-5 px-3 py-2
+                xl:items-end    
+            ">
+                <h2 className="font-h1Title text-white font-black text-3xl text-center 
+                     sm:text-5xl sm:py-5
+                    xl:w-full xl:text-left xl:text-4xl xl:max-w-screen-xl xl:py-10">
+                    Projetos
+                </h2>
+                <div
+                    className="flex flex-col gap-5
+                    md:grid md:grid-cols-2
+                    lg:grid-cols-2
+                    xl:grid-cols-3 xl:max-w-screen-xl
+                    "
+                >
+                    {projects.map((data, i) => {
+                        return (
+                            <div
+                                key={i}
+                                className="bg-gray-900 border-2 border-primaryPink p-2 flex flex-col justify-around gap-2
                         xl:p-5 xl:gap-5 text-white"
-                    >
-                        <a
-                            className={`${props.className}`} target="_blank" href={props.href}>
-                            <Image
-                                layout="responsive"
-                                src={data.image} />
-                        </a>
+                            >
+                                <a
+                                    className={`${props.className}`} target="_blank" href={props.href}>
+                                    <Image
+                                        layout="responsive"
+                                        src={data.image} />
+                                </a>
 
-                        <div className="w-full p-2">
-                            <a target='_blank' href={data.href}>
-                                <h3
-                                    className="py-2  text-2xl font-black font-h2Title border-b-2 border-primaryPink
+                                <div className="w-full p-2">
+                                    <a target='_blank' href={data.href}>
+                                        <h3
+                                            className="py-2  text-2xl font-black font-h2Title border-b-2 border-primaryPink
                                 xl:text-3xl
                                 ">{data.titulo}</h3>
-                            </a>
-                            <p className="w-full text-sm font-body py-3">{data.text}</p>
-                        </div>
+                                    </a>
+                                    <p className="w-full text-sm font-body py-3">{data.text}</p>
+                                </div>
 
-                        <div className="min-h-[100px]">
-                            <div className={`${props.techClassName} py-2 text-black grid gap-2
+                                <div className="min-h-[100px]">
+                                    <div className={`${props.techClassName} py-2 text-black grid gap-2
                                 grid-cols-2
                             `}>
-                                {data.technology.map((data, i) => {
-                                    return (
-                                        <span
-                                            key={i}
-                                            className="bg-yelloPrimary py-1 px-2 rounded-md text-center font-semibold"
-                                        >
-                                            {data}
-                                        </span>
-                                    )
-                                })}
-                            </div>
-                        </div>
+                                        {data.technology.map((data, i) => {
+                                            return (
+                                                <span
+                                                    key={i}
+                                                    className="bg-yelloPrimary py-1 px-2 rounded-md text-center font-semibold"
+                                                >
+                                                    {data}
+                                                </span>
+                                            )
+                                        })}
+                                    </div>
+                                </div>
 
-                    </div>
-                )
-            })}
-        </div>
+                            </div>
+                        )
+                    })}
+                </div>
+            </main>
+        </>
     )
 }

@@ -16,57 +16,69 @@ import iconAdobexd from "../components/img/TecnologiesIcons/adobeXDIcon.svg"
 
 export function Technologies() {
     return (
-        <div
-        className="flex flex-col gap-3
-        md:grid md:grid-cols-2
-        lg:grid-cols-2 lg:w-full
-        xl:grid-cols-3 xl:max-w-screen-xl
+        <section
+            className="px-3
+        md:px-5
+        lg:w-full
+        xl:flex xl:flex-col xl:items-center
         ">
-            <TechBanner
-                icon={iconHTML}
-                name="HTML5"
-            />
-            <TechBanner
-                icon={iconCSS}
-                name="CSS3"
-            />
-            <TechBanner
-                icon={iconJavascript}
-                name="Javascript"
-            />
-            <TechBanner
-                icon={iconReact}
-                name="React.JS"
-            />
-            <TechBanner
-                icon={iconNext}
-                name="Next.JS"
-            />
-            <TechBanner
-                icon={iconTailwind}
-                name="Tailwind"
-            />
-            <TechBanner
-                icon={iconPhotoshop}
-                name="Photoshop"
-            />
-            <TechBanner
-                icon={iconGit}
-                name="GIT"
-            />
-            <TechBanner
-                icon={iconGithub}
-                name="Github"
-            />
-            <TechBanner
-                icon={iconFigma}
-                name="Figma"
-            />
-            <TechBanner
-                icon={iconAdobexd}
-                name="Adobe XD"
-            />
-        </div>
+            <h2 className="font-h1Title text-white font-black text-3xl text-center 
+            sm:text-5xl sm:py-5
+            xl:w-full xl:text-left xl:text-4xl xl:max-w-screen-xl xl:py-10">
+                Tecnologias
+            </h2>
+            <div
+                className="flex flex-col gap-3
+            md:grid md:grid-cols-2
+            lg:grid-cols-2 lg:w-full
+            xl:grid-cols-3 xl:max-w-screen-xl
+            ">
+                <TechBanner
+                    icon={iconHTML}
+                    name="HTML5"
+                />
+                <TechBanner
+                    icon={iconCSS}
+                    name="CSS3"
+                />
+                <TechBanner
+                    icon={iconJavascript}
+                    name="Javascript"
+                />
+                <TechBanner
+                    icon={iconReact}
+                    name="React.JS"
+                />
+                <TechBanner
+                    icon={iconNext}
+                    name="Next.JS"
+                />
+                <TechBanner
+                    icon={iconTailwind}
+                    name="Tailwind"
+                />
+                <TechBanner
+                    icon={iconPhotoshop}
+                    name="Photoshop"
+                />
+                <TechBanner
+                    icon={iconGit}
+                    name="GIT"
+                />
+                <TechBanner
+                    icon={iconGithub}
+                    name="Github"
+                />
+                <TechBanner
+                    icon={iconFigma}
+                    name="Figma"
+                />
+                <TechBanner
+                    icon={iconAdobexd}
+                    name="Adobe XD"
+                />
+            </div>
+        </section>
     )
 }
 
@@ -79,7 +91,7 @@ function TechBanner(props) {
                     src={props.icon}
                 />
             </div>
-            
+
             <p className="text-4xl font-h2Title">
                 {props.name}
             </p>

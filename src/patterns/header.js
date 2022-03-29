@@ -48,7 +48,7 @@ export function Header() {
 }
 
 
-function SocialButton(props) {
+export function SocialButton(props) {
     return (
         <a
             className="w-[50px] h-[50px] relative hover:bg-white rounded-full"
