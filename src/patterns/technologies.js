@@ -3,16 +3,16 @@ import Image from 'next/image'
 
 
 import iconHTML from "../components/img/TecnologiesIcons/htmlIcon.svg"
-import IconCSS from "../components/img/TecnologiesIcons/cssIcon.svg"
-import IconJavascript from "../components/img/TecnologiesIcons/javascriptIcon.svg"
-import IconReact from "../components/img/TecnologiesIcons/reactIcon.svg"
-import IconTailwind from "../components/img/TecnologiesIcons/tailwindIcon.svg"
-import IconNext from "../components/img/TecnologiesIcons/nextIcon.svg"
-import IconPhotoshop from "../components/img/TecnologiesIcons/photoshopIcon.svg"
-import IconGit from "../components/img/TecnologiesIcons/gitIcon.svg"
-import IconGithub from "../components/img/TecnologiesIcons/githubIcon.svg"
-import IconFigma from "../components/img/TecnologiesIcons/figmaIcon.svg"
-import IconAdobexd from "../components/img/TecnologiesIcons/adobeXDIcon.svg"
+import iconCSS from "../components/img/TecnologiesIcons/cssIcon.svg"
+import iconJavascript from "../components/img/TecnologiesIcons/javascriptIcon.svg"
+import iconReact from "../components/img/TecnologiesIcons/reactIcon.svg"
+import iconTailwind from "../components/img/TecnologiesIcons/tailwindIcon.svg"
+import iconNext from "../components/img/TecnologiesIcons/nextIcon.svg"
+import iconPhotoshop from "../components/img/TecnologiesIcons/photoshopIcon.svg"
+import iconGit from "../components/img/TecnologiesIcons/gitIcon.svg"
+import iconGithub from "../components/img/TecnologiesIcons/githubIcon.svg"
+import iconFigma from "../components/img/TecnologiesIcons/figmaIcon.svg"
+import iconAdobexd from "../components/img/TecnologiesIcons/adobeXDIcon.svg"
 
 export function Technologies() {
     return (
@@ -26,6 +26,46 @@ export function Technologies() {
                 icon={iconHTML}
                 name="HTML5"
             />
+            <TechBanner
+                icon={iconCSS}
+                name="CSS3"
+            />
+            <TechBanner
+                icon={iconJavascript}
+                name="Javascript"
+            />
+            <TechBanner
+                icon={iconReact}
+                name="React.JS"
+            />
+            <TechBanner
+                icon={iconNext}
+                name="Next.JS"
+            />
+            <TechBanner
+                icon={iconTailwind}
+                name="Tailwind"
+            />
+            <TechBanner
+                icon={iconPhotoshop}
+                name="Photoshop"
+            />
+            <TechBanner
+                icon={iconGit}
+                name="GIT"
+            />
+            <TechBanner
+                icon={iconGithub}
+                name="Github"
+            />
+            <TechBanner
+                icon={iconFigma}
+                name="Figma"
+            />
+            <TechBanner
+                icon={iconAdobexd}
+                name="Adobe XD"
+            />
         </div>
     )
 }
@@ -33,7 +73,7 @@ export function Technologies() {
 function TechBanner(props) {
     return (
         <div className="bg-yelloPrimary flex justify-between items-center p-1">
-            <div className="w-[50px] h-[50px]">
+            <div className="w-[50px] h-[50px] relative">
                 <Image
                     layout='fill'
                     src={props.icon}

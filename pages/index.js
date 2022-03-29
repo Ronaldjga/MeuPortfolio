@@ -101,53 +101,6 @@ function HomePage() {
           sm:text-5xl sm:py-5
           xl:w-full xl:text-left xl:text-4xl xl:max-w-screen-xl xl:py-10">Tecnologias</h2>
           <Technologies/>
-          {/* <div
-            className="flex flex-col gap-3
-            md:grid md:grid-cols-2
-            lg:grid-cols-2 lg:w-full
-            xl:grid-cols-3 xl:max-w-screen-xl
-          ">
-            <div className="bg-yelloPrimary flex justify-between items-center p-1">
-              <HtmlIcon width="50" height="50" className="bg-yelloPrimary" />
-              <p className="text-4xl font-h2Title">HTML 5</p>
-            </div>
-            <div className="bg-yelloPrimary flex justify-between items-center p-1">
-              <CSSIcon width="50" height="50" className="bg-yelloPrimary" />
-              <p className="text-4xl font-h2Title">CSS 3</p>
-            </div>
-            <div className="bg-yelloPrimary flex justify-between items-center p-1">
-              <JavascriptIcon width="50" height="50" className="bg-yelloPrimary" />
-              <p className="text-4xl font-h2Title">Javascript</p>
-            </div>
-            <div className="bg-yelloPrimary flex justify-between items-center p-1">
-              <NextIcon width="50" height="50" className="bg-yelloPrimary" />
-              <p className="text-4xl font-h2Title">Next.JS</p>
-            </div>
-            <div className="bg-yelloPrimary flex justify-between items-center p-1">
-              <PhotoshopIcon width="50" height="50" className="bg-yelloPrimary" />
-              <p className="text-4xl font-h2Title">Photoshop</p>
-            </div>
-            <div className="bg-yelloPrimary flex justify-between items-center p-1">
-              <AdobexdIcon width="50" height="50" className="bg-yelloPrimary" />
-              <p className="text-4xl font-h2Title">AdobeXd</p>
-            </div>
-            <div className="bg-yelloPrimary flex justify-between items-center p-1">
-              <TailwindIcon width="50" height="50" className="bg-yelloPrimary" />
-              <p className="text-4xl font-h2Title">Tailwind</p>
-            </div>
-            <div className="bg-yelloPrimary flex justify-between items-center p-1">
-              <GitIcon width="50" height="50" className="bg-yelloPrimary" />
-              <p className="text-4xl font-h2Title">Git</p>
-            </div>
-            <div className="bg-yelloPrimary flex justify-between items-center p-1">
-              <GithubIconTech width="50" height="50" className="bg-yelloPrimary" />
-              <p className="text-4xl font-h2Title">Github</p>
-            </div>
-            <div className="bg-yelloPrimary flex justify-between items-center p-1">
-              <FigmaIcon width="50" height="50" className="bg-yelloPrimary" />
-              <p className="text-4xl font-h2Title">Figma</p>
-            </div>
-          </div> */}
         </section>
       </div>
       <footer className="w-full min-h-[300px] bg-yelloPrimary flex flex-col justify-center items-center gap-2
