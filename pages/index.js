@@ -104,7 +104,7 @@ function HomePage() {
               techFive="SkyNexUi"
               techSixClassName="hidden"
             />
-            <ProjectCard
+            {/* <ProjectCard
               href="https://ecomerce-project.000webhostapp.com/"
               title="E-Comerce Project"
               text="Site E-comerce básico, podemos escolher os produtos do cardápio e adicionar ao carrinho em diferentes quantidades."
@@ -151,7 +151,7 @@ function HomePage() {
               techFour="Axios"
               techFive="PokeAPI"
               techSixClassName="hidden"
-            />
+            /> */}
           </div>
         </main>
 

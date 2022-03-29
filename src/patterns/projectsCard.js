@@ -7,9 +7,20 @@ import ecomerceImage from '../components/img/projects/ecomerceImage.PNG'
 import todoListImage from '../components/img/projects/todoListImage.PNG'
 
 export function ProjectCard(props) {
+    const [projects, setProjects] = React.useState([
+        {
+            titulo: 'Calculadoras Online',
+            text: 'Calculadoras Online é um site com as diversas calculadoras que fornecem resultados precisos.',
+            technology:['React.Js', 'Next.JS', 'Tailwind']
+        }
+    ])
+
+
+
+
     return (
         <div
-            className="bg-gray-900 border-2 border-yelloPrimary p-2 flex flex-col justify-around gap-2
+            className="bg-gray-900 border-2 border-pinkPrimary p-2 flex flex-col justify-around gap-2
             xl:p-5 xl:gap-5 text-white">
             <a className={`${props.className}`} target="_blank" href={props.href}>
                 <Image layout="responsive" src={props.image}/>
@@ -49,6 +60,7 @@ export function ProjectCard(props) {
                         techClassName={props.techSixClassName}
                         tech={props.techSix}
                     />
+                    {console.log(projects)}
                 </div>
             </div>
         </div>
