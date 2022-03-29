@@ -9,7 +9,7 @@ module.exports = {
     extend: {
       colors: {
         yelloPrimary: "#F2BF5E",
-        pinkPrimary: "#831843",
+        primaryPink: "#831843",
         secondaryPink: "#EE7277",
         darkBluePrimary: "#022026",
         grayPimary: "#022026",

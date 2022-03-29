@@ -14,6 +14,7 @@ import calculatorImage from '../src/components/img/projects/calculadorasImage.PN
 import ecomerceImage from '../src/components/img/projects/ecomerceImage.PNG'
 import todoListImage from '../src/components/img/projects/todoListImage.PNG'
 import pokedexImage from '../src/components/img/projects/pokedex.PNG'
+import { Technologies } from "../src/patterns/technologies.js"
 
 
 function HomePage() {
@@ -86,73 +87,7 @@ function HomePage() {
           <h1 className="font-h1Title text-white font-black text-3xl text-center 
           sm:text-5xl sm:py-5
           xl:w-full xl:text-left xl:text-4xl xl:max-w-screen-xl xl:py-10">Projetos</h1>
-          <div
-            className="flex flex-col gap-5
-            md:grid md:grid-cols-2
-            lg:grid-cols-2
-            xl:grid-cols-3 xl:max-w-screen-xl
-            ">
-            <ProjectCard
-              href="https://chat-project-nine.vercel.app/"
-              title="Chat Project"
-              text="Chat compartilhado com a possibilidade de login com o username do Github. Desenvolvido com React e Next.js integrado com o banco de dados relacional Supabase."
-              image={chatImage}
-              techOne="React.JS"
-              techTwo="Next.JS"
-              techThreeClassName="hidden"
-              techFour="Supabase"
-              techFive="SkyNexUi"
-              techSixClassName="hidden"
-            />
-            {/* <ProjectCard
-              href="https://ecomerce-project.000webhostapp.com/"
-              title="E-Comerce Project"
-              text="Site E-comerce básico, podemos escolher os produtos do cardápio e adicionar ao carrinho em diferentes quantidades."
-              image={ecomerceImage}
-              techOne="HTML5"
-              techTwo="Tailwind"
-              techThree="Javascript"
-              techFourClassName="hidden"
-              techFiveClassName="hidden"
-              techSixClassName="hidden"
-            />
-            <ProjectCard
-              href="https://calculadora-mdbhm8u3v-ronaldjga.vercel.app/"
-              title="Calculadoras Online"
-              text="Calculadoras Online é um site com as diversas calculadoras que fornecem resultados precisos."
-              image={calculatorImage}
-              techOne="React.JS"
-              techTwo="Next.JS"
-              techThree="Tailwind"
-              techFourClassName="hidden"
-              techFiveClassName="hidden"
-              techSixClassName="hidden"
-            />
-            <ProjectCard
-              href="https://lista-de-tarefas-a4qk22xv2-ronaldjga.vercel.app/"
-              title="Lista de Tarefas"
-              text="Lista de tarefas é um site onde podemos criar, editar ou deletar nossas tarefas, mantendo uma organização própria salva no LocalStorage."
-              image={todoListImage}
-              techOne="React"
-              techTwo="Next.JS"
-              techThree="Tailwind"
-              techFour="LocalStorage"
-              techFiveClassName="hidden"
-              techSixClassName="hidden"
-            />
-            <ProjectCard
-              href="https://pokemonpokedex.vercel.app/"
-              title="Pokédex"
-              text="Pokédex pokemon, com funcionalidade de pesquisa de pokemon individual, sortear pokemon aleatório ou seleção de lista de pokemons por tipos. Designer responsivo e interativo."
-              image={pokedexImage}
-              techOne="React"
-              techTwo="Next.JS"
-              techThree="Tailwind"
-              techFour="Axios"
-              techFive="PokeAPI"
-              techSixClassName="hidden"
-            /> */}
-          </div>
+          <ProjectCard/>
         </main>
 
         
@@ -165,7 +100,8 @@ function HomePage() {
           <h2 className="font-h1Title text-white font-black text-3xl text-center 
           sm:text-5xl sm:py-5
           xl:w-full xl:text-left xl:text-4xl xl:max-w-screen-xl xl:py-10">Tecnologias</h2>
-          <div
+          <Technologies/>
+          {/* <div
             className="flex flex-col gap-3
             md:grid md:grid-cols-2
             lg:grid-cols-2 lg:w-full
@@ -211,7 +147,7 @@ function HomePage() {
               <FigmaIcon width="50" height="50" className="bg-yelloPrimary" />
               <p className="text-4xl font-h2Title">Figma</p>
             </div>
-          </div>
+          </div> */}
         </section>
       </div>
       <footer className="w-full min-h-[300px] bg-yelloPrimary flex flex-col justify-center items-center gap-2
