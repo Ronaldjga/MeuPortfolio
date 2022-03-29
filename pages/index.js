@@ -6,46 +6,16 @@ import { ProjectCard } from "../src/patterns/projectsCard.js"
 import { theme } from "../src/components/theme/theme"
 import { ThemeProvider, createTheme } from "@mui/material/styles"
 
-import { GithubIcon, InstagramIcon, LinkedinIcon, HtmlIcon, CSSIcon, JavascriptIcon, ReactIcon, NextIcon, TailwindIcon, PhotoshopIcon, GitIcon, GithubIconTech, AdobexdIcon, FigmaIcon } from "../src/components/icons/icons"
 import { Box } from "@mui/system"
-
-import chatImage from '../src/components/img/projects/chatImage.PNG'
-import calculatorImage from '../src/components/img/projects/calculadorasImage.PNG'
-import ecomerceImage from '../src/components/img/projects/ecomerceImage.PNG'
-import todoListImage from '../src/components/img/projects/todoListImage.PNG'
-import pokedexImage from '../src/components/img/projects/pokedex.PNG'
 import { Technologies } from "../src/patterns/technologies.js"
+import { Header } from "../src/patterns/header.js"
 
 
 function HomePage() {
   return (
     <Box className="flex flex-col bg-darkBluePrimary gap-2 
     lg:flex-row lg:justify-between">
-      <section
-        className="w-full h-5/6 min-h-[400px] p-5 flex flex-col justify-center items-center gap-2 bg-yelloPrimary
-          sm:h-full sm:w-full sm:p-10
-          lg:w-1/5 lg:min-w-[350px] lg:h-screen lg:min-h-full lg:top-0 lg:left-0 lg:z-20
-        ">
-        <div className=" flex flex-col items-center gap-2
-        lg:fixed lg:top-2/4 lg:-translate-y-2/4
-        ">
-          <img className="w-3/4 xl:w-10/12 rounded-xl" src="https://github.com/Ronaldjga.png" />
-          <h1 className="font-h1Title font-black text-2xl text-center sm:text-4xl lg:text-3xl xl:text-4xl">Ronald Almeida</h1>
-          <div className="w-3/4 flex justify-around">
-            <Fab target={'_blank'} href="https://www.linkedin.com/in/ronald-almeida-749198220/" size="medium" className="bg-yelloPrimary">
-              <LinkedinIcon />
-            </Fab>
-
-            <Fab target={'_blank'} href="https://www.instagram.com/ronald_jga/" size="medium" className="bg-yelloPrimary">
-              <InstagramIcon />
-            </Fab>
-
-            <Fab target={'_blank'} href="https://github.com/Ronaldjga" size="medium" className="bg-yelloPrimary">
-              <GithubIcon />
-            </Fab>
-          </div>
-        </div>
-      </section>
+      <Header/>
 
 
 
@@ -103,7 +73,7 @@ function HomePage() {
           <Technologies/>
         </section>
       </div>
-      <footer className="w-full min-h-[300px] bg-yelloPrimary flex flex-col justify-center items-center gap-2
+      {/* <footer className="w-full min-h-[300px] bg-yelloPrimary flex flex-col justify-center items-center gap-2
         sm:hidden
         ">
         <h2 className="text-5xl font-h1Title font-black text-center">Ronald Almeida</h2>
@@ -122,7 +92,7 @@ function HomePage() {
             <GithubIcon />
           </Fab>
         </div>
-      </footer>
+      </footer> */}
     </Box>
   )
 }
