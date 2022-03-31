@@ -75,7 +75,7 @@ export function ProjectCard(props) {
                         xl:p-5 xl:gap-5 text-white"
                             >
                                 <a
-                                    className={`${props.className}`} target="_blank" href={props.href}>
+                                    className={`${props.className}`} target="_blank" href={data.href}>
                                     <Image
                                         layout="responsive"
                                         src={data.image} />
