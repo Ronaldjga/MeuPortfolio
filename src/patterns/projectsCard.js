@@ -8,7 +8,7 @@ import todoListImage from '../components/img/projects/todoListImage.PNG'
 import pokedexImage from '../components/img/projects/pokedex.PNG'
 
 export function ProjectCard(props) {
-    const [projects, setProjects] = React.useState([
+    const projects = [
         {
             image: chatImage,
             href: 'https://chat-project-nine.vercel.app/',
@@ -44,7 +44,7 @@ export function ProjectCard(props) {
             text: 'Pokédex pokemon, com funcionalidade de pesquisa de pokemon individual, sortear pokemon aleatório ou seleção de lista de pokemons por tipos. Designer responsivo e interativo.',
             technology: ['React.Js', 'Next.JS', 'Tailwind', 'Axios', 'PokeAPI']
         },
-    ])
+    ]
 
 
 
@@ -71,7 +71,7 @@ export function ProjectCard(props) {
                         return (
                             <div
                                 key={i}
-                                className="bg-gray-900 border-2 border-primaryPink p-2 flex flex-col justify-around gap-2
+                                className="bg-gray-900 border-2 border-yelloPrimary p-2 flex flex-col justify-around gap-2
                         xl:p-5 xl:gap-5 text-white"
                             >
                                 <a
@@ -84,7 +84,7 @@ export function ProjectCard(props) {
                                 <div className="w-full p-2">
                                     <a target='_blank' href={data.href}>
                                         <h3
-                                            className="py-2  text-2xl font-black font-h2Title border-b-2 border-primaryPink
+                                            className="py-2  text-2xl font-black font-h2Title border-b-2 border-yelloPrimary
                                 xl:text-3xl
                                 ">{data.titulo}</h3>
                                     </a>

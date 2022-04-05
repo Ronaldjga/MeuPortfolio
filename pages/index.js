@@ -18,11 +18,6 @@ function HomePage() {
       <Head>
       <title>Ronaldjga Portifolio</title>
       <meta property="Description" content="Portifolio" key="title" />
-      <meta property="Description" content="Ronald Almeida" key="title" />
-      <meta property="Description" content="Ronaldjga" key="title" />
-      <meta property="Description" content="Ronald_jga" key="title" />
-      <meta property="Description" content="_Ronaldjga" key="title" />
-      <meta property="Description" content="_Ronaldjga" key="title" />
       </Head>
 
       <Header/>
