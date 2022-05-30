@@ -6,6 +6,7 @@ import calculatorImage from '../components/img/projects/calculadorasImage.PNG'
 import ecomerceImage from '../components/img/projects/ecomerceImage.PNG'
 import todoListImage from '../components/img/projects/todoListImage.PNG'
 import pokedexImage from '../components/img/projects/pokedex.PNG'
+import charadaImage from '../components/img/projects/charada.PNG'
 
 export function ProjectCard(props) {
     const projects = [
@@ -43,6 +44,13 @@ export function ProjectCard(props) {
             titulo: 'Pokédex',
             text: 'Pokédex pokemon, com funcionalidade de pesquisa de pokemon individual, sortear pokemon aleatório ou seleção de lista de pokemons por tipos. Designer responsivo e interativo.',
             technology: ['React.Js', 'Next.JS', 'Tailwind', 'Axios', 'PokeAPI']
+        },
+        {
+            image: charadaImage,
+            href: 'https://charada-blush.vercel.app/',
+            titulo: 'Charada',
+            text: 'Um site inspirado em mini-jogos diários como Termo, letreco e outros. Charada disponibiliza uma charada diariamente a ser desvendada, com interação rápida e simples de maneira a tornar a experiência o mais fácil possível para o usuário.',
+            technology: ['React.Js', 'Next.JS', 'Tailwind', 'ReactContext', 'LocalStorage']
         },
     ]
 
